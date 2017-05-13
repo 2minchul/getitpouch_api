@@ -16,32 +16,32 @@ def index():
     return 'Running!'
 
 
-@app.route('rank', methods=['POST'])
+@app.route('/rank', methods=['POST'])
 def rank():
     return ''
 
 
-@app.route('scan', methods=['POST'])
+@app.route('/scan', methods=['POST'])
 def scan():
     return ''
 
 
-@app.route('search', methods=['POST'])
+@app.route('/search', methods=['POST'])
 def search():
     return ''
 
 
-@app.route('my_pouch/list', methods=['POST'])
+@app.route('/my_pouch/list', methods=['POST'])
 def my_list():
     return ''
 
 
-@app.route('my_pouch/add_item', methods=['POST'])
+@app.route('/my_pouch/add_item', methods=['POST'])
 def pouch_add():
     return ''
 
 
-@app.route('my_pouch/delete', methods=['POST'])
+@app.route('/my_pouch/delete', methods=['POST'])
 def pouch_del():
     return ''
 

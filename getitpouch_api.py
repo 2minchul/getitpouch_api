@@ -7,6 +7,10 @@ MONGODB_PORT = 27017
 connection = pymongo.MongoClient("mongodb://%s:%d" % (MONGODB_HOST, MONGODB_PORT))
 db = connection.db
 
+pouchShema = db.pouchShema
+productSchema = db.productSchema
+
+
 app = Flask(__name__)
 app.config.from_object(__name__)
 
@@ -47,4 +51,4 @@ def pouch_del():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=11022)

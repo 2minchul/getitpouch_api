@@ -45,6 +45,7 @@ while 1:
     'product_id': jsondata.get('id_product'),
     'review_count': jsondata.get('review_count')}
         
+        print(dic)
         product.insert(dic)
     
     

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61facdbb-2955-4a6b-8f22-50158a3be0e5" name="13.124.64.211" url="http://13.124.64.211">
+        <fileTransfer host="13.124.64.211" port="22" privateKey="C:\Users\User\OneDrive\aws\kakao_chatbot.pem" rootFolder="/home/ubuntu/getitpouch_api" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

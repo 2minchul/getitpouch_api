@@ -28,10 +28,13 @@ mydic = {
     "d_day": 21,
     "purchase_time": time.time()
 }
+#
+# pouch.remove()
+# pouch.insert(mydic)
+#
+# print( list(record for record in pouch.find()) )
 
 pouch.remove()
-pouch.insert(mydic)
 
-print( list(record for record in pouch.find()) )
 
 # print({'item':[item for item in pouch.find()]})
